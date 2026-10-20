@@ -1,3 +1,29 @@
+# Converter artifacts and temporary files
+/tmp/
+/output/
+/outputs/
+*-readable.pdf
+*.tmp
+
+# LaTeX build artifacts
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# macOS metadata
+.DS_Store
+
+.agents
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
